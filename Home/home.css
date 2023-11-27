@@ -1,7 +1,260 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --firstcolor: #FFFFFF;
+    --secondcolor: #232536;
+    --threecolor: #FFD3AF;
+    --fourcolor: #FFA155;
+    --fivecolor: #444CFC;
+    --sixcolor: #FFFFFF73;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: var(--secondcolor);
+}
+
+.conatiner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 3px solid blue; */
+}
+
+.first_name {
+    font-size: 40px;
+    color: var(--firstcolor);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: var(--firstcolor);
+}
+
+#wrapper {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    /* background: burlywood; */
+}
+
+.divded1 {
+    width: 40%;
+    height: 480px;
+    /* background: yellowgreen; */
+}
+
+h1 {
+    color: var(--firstcolor);
+    font-size: 50px;
+
+}
+
+p {
+    font-size: 20px;
+    color: var(--firstcolor);
+
+}
+
+.button:hover {
+    width: 235px;
+    height: 75px;
+    transition: 0.8s;
+    box-shadow: 0px 4px 40px 10px #a0a0a0;
+}
+
+.button {
+    width: 230px;
+    height: 70px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: var(--firstcolor);
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background: var(--fivecolor);
+}
+
+.divded2 {
+    width: 40%;
+    height: 490px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./img/Image.png);
+}
+
+.center {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 3px solid yellow; */
+}
+
+.divide_by_six1 {
+    width: 200px;
+    height: 100px;
+    /* margin: 10px; */
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    color: var(--firstcolor);
+    font-size: 25px;
+    /* background: purple; */
+}
+
+#menu {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .conatiner {
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    header nav {
+        width: 80%;
+
+    }
+
+    nav ul {
+        width: 300px;
+        height: 100vh;
+        flex-direction: column;
+        background-color: #a0a0a0;
+        border-radius: 12px;
+        opacity: 0.8;
+        z-index: 2;
+        position: relative;
+        top: 190px;
+        transition: all 1.5s ease;
+    }
+
+    .open {
+        top: -400px;
+    }
+
+    #menu {
+        display: block;
+        color: white;
+        font-size: 30px;
+    }
+
+    #wrapper {
+        flex-wrap: wrap;
+        width: 90%;
+
+        /* background: red; */
+    }
+
+    .center {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .divded1 {
+        width: 40%;
+        height: 480px;
+        flex-wrap: wrap;
+    }
+
+    .first_name {
+        font-size: 30px;
+    }
+
+    .divded2 {
+        width: 40%;
+        height: 330px;
+        margin-right: 10px;
+        margin-bottom: 80px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .button {
+        width: 200px;
+        height: 50px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+        position: relative;
+        top: 20px;
+        color: white;
+    }
+
+    .center {
+        width: 100%;
+        height: 100px;
+        position: relative;
+        bottom: 85px;
+    }
+
+    .divide_by_six0 {
+        width: 150px;
+        height: 70px;
+    }
+
+    .divide_by_six1 {
+        width: 150px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    .divide_by_six0 h4 {
+        font-size: 15px;
+    }
+
+    .divide_by_six0 h3 {
+        font-size: 15px;
+    }
 }
