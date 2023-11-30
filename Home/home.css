@@ -139,182 +139,7 @@ h1 {
   display: none;
 }
 
-@media screen and (max-width: 900px) {
-  header {
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-  }
 
-  .conatiner {
-    max-width: 100%;
-    height: auto;
-    padding: 10px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-  }
-
-  header nav {
-    width: 80%;
-  }
-
-  nav ul {
-    width: 300px;
-    height: 100vh;
-    flex-direction: column;
-    background-color: #a0a0a0;
-    border-radius: 12px;
-    opacity: 0.8;
-    z-index: 2;
-    position: relative;
-    top: 190px;
-    transition: all 1.5s ease;
-  }
-
-  .open {
-    top: -400px;
-  }
-
-  #menu {
-    display: block;
-    color: white;
-    font-size: 30px;
-  }
-
-  #wrapper {
-    flex-wrap: wrap;
-    width: 90%;
-
-    /* background: red; */
-  }
-
-  .center {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-
-  .divded1 {
-    width: 40%;
-    height: 480px;
-    flex-wrap: wrap;
-  }
-
-  .first_name {
-    font-size: 30px;
-  }
-
-  .divded2 {
-    width: 40%;
-    height: 330px;
-    margin-right: 10px;
-    margin-bottom: 80px;
-  }
-
-  h1 {
-    font-size: 25px;
-  }
-
-  .button {
-    width: 200px;
-    height: 50px;
-    font-size: 17px;
-    font-weight: 600;
-  }
-
-  p {
-    font-size: 15px;
-  }
-
-  nav ul li a {
-    font-size: 15px;
-    position: relative;
-    top: 20px;
-    color: white;
-  }
-
-  .center {
-    width: 100%;
-    height: 100px;
-    position: relative;
-    bottom: 85px;
-  }
-
-  .divide_by_six0 {
-    width: 150px;
-    height: 70px;
-  }
-
-  .divide_by_six1 {
-    width: 150px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    margin-top: 50px;
-  }
-
-  .divide_by_six0 h4 {
-    font-size: 15px;
-  }
-
-  .divide_by_six0 h3 {
-    font-size: 15px;
-  }
-
-  /* ================= About Section Responsive ===================== */
-
-  .heading_row h2,
-  .expertise_text h2,
-  .Our_Services_col h2 {
-    text-align: center !important;
-    font-size: 36px !important;
-    line-height: normal !important;
-  }
-  .About_para,
-  .Our_expertise_para,
-  .Our_Services_para {
-    text-align: center;
-  }
-  .Our_expertise_row {
-    gap: 30px 0;
-  }
-
-  .Our_expertise_row,
-  .heading_row,
-  .heading_col {
-    text-align: center;
-    justify-content: center !important;
-  }
-  .heading_col h3 {
-    font-size: 25px !important;
-    line-height: normal !important;
-  }
-  .heading_col p,
-  .expertise_text p {
-    line-height: normal !important;
-    font-size: 16px !important;
-  }
-
-  .pictures {
-    gap: 15px 15px !important;
-  }
-
-  .Numbers,
-  .number_box {
-    justify-content: center !important;
-    gap: 45px 45px !important;
-  }
-
-  .expertise_box_element > .profile_text{
-    text-align: left !important;
-  }
-
-  .Our_Services_Row {
-    gap: 32px 40px !important;
-    justify-content: center !important;
-  }
-}
 
 /* ============================== About Section Styles ========================= */
 
@@ -572,4 +397,183 @@ h1 {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  header {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .conatiner {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  header nav {
+    width: 80%;
+  }
+
+  nav ul {
+    width: 300px;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #a0a0a0;
+    border-radius: 12px;
+    opacity: 0.8;
+    z-index: 2;
+    position: relative;
+    top: 190px;
+    transition: all 1.5s ease;
+  }
+
+  .open {
+    top: -400px;
+  }
+
+  #menu {
+    display: block;
+    color: white;
+    font-size: 30px;
+  }
+
+  #wrapper {
+    flex-wrap: wrap;
+    width: 90%;
+
+    /* background: red; */
+  }
+
+  .center {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .divded1 {
+    width: 40%;
+    height: 480px;
+    flex-wrap: wrap;
+  }
+
+  .first_name {
+    font-size: 30px;
+  }
+
+  .divded2 {
+    width: 40%;
+    height: 330px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .button {
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  nav ul li a {
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    color: white;
+  }
+
+  .center {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 85px;
+  }
+
+  .divide_by_six0 {
+    width: 150px;
+    height: 70px;
+  }
+
+  .divide_by_six1 {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 50px;
+  }
+
+  .divide_by_six0 h4 {
+    font-size: 15px;
+  }
+
+  .divide_by_six0 h3 {
+    font-size: 15px;
+  }
+
+  /* ================= About Section Responsive ===================== */
+
+  .heading_row h2,
+  .expertise_text h2,
+  .Our_Services_col h2 {
+    text-align: center !important;
+    font-size: 36px !important;
+    line-height: normal !important;
+  }
+  .About_para,
+  .Our_expertise_para,
+  .Our_Services_para {
+    text-align: center;
+  }
+  .Our_expertise_row {
+    gap: 30px 0;
+  }
+
+  .Our_expertise_row,
+  .heading_row,
+  .heading_col {
+    text-align: center;
+    justify-content: center !important;
+  }
+  .heading_col h3 {
+    font-size: 25px !important;
+    line-height: normal !important;
+  }
+  .heading_col p,
+  .expertise_text p {
+    line-height: normal !important;
+    font-size: 16px !important;
+  }
+
+  .pictures {
+    gap: 15px 15px !important;
+  }
+
+  .Numbers,
+  .number_box {
+    justify-content: center !important;
+    gap: 45px 45px !important;
+  }
+
+  .expertise_box_element > .profile_text{
+    text-align: left !important;
+  }
+
+  .Our_Services_Row {
+    gap: 32px 40px !important;
+    justify-content: center !important;
+  }
 }
